@@ -26,10 +26,32 @@
   </head>
 
   <body>
-  
+
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <style media="screen">
+    @media(max-width:700px){
+        main{
+            background-color: #a5f;
+        }
+        #navbar{
+            position: sticky;
+            top:0;
+            background:rgba(24, 45, 77, .5);
+            width:100vw;
+            padding :2px;
+            text-align: center;
+        }
 
+        body{
+            font-size:20px;
+        }
+        .title{
+            font-size: 40px;
+        }
+
+    }
+    </style>
       <main>
     <nav id="navbar">
       <ul>
@@ -43,12 +65,13 @@
         <h1 class="title">welcome to our page</h1>
       </section>
 
-      <section id="projects">
-        <p class="project-tile"></p>
+      <section id="projects-section">
+        <p class="project-tile">this is some photo</p>
+        <img src="" alt="phot">
         <a href="#">proyect 1</a>
       </section>
 
-      
+
 
 
       <a href="https://github.com/aizjicod" id="profile-link" target="_blank">my portafolio</a>
@@ -59,7 +82,7 @@
 
 
       </main>
-    
+
 
     <script  src="js/index.js"></script>
   </body>
