@@ -51,3 +51,24 @@ a:hover{
 .title{
     font-size: 100px;
 }
+.projects-image
+{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+
+
+}
+.projects-image : hover
+{
+  cursor: -webkit-grabbing;
+
+}
+#projects
+{
+  text-align: center;
+  margin-bottom: 2em;
+}
+.project-title
+{
+}
